@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainBus", "..\AppServers\MainBus\MainBus\MainBus.csproj", "{38553A85-602C-4CA9-B7FC-76034D5B27A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{27E2A84B-414D-4ECB-837C-573A00D98804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Framework", "00 - Framework", "{9AF79D41-17CB-425F-B8B1-B86D1610B3C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{38553A85-602C-4CA9-B7FC-76034D5B27A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38553A85-602C-4CA9-B7FC-76034D5B27A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38553A85-602C-4CA9-B7FC-76034D5B27A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38553A85-602C-4CA9-B7FC-76034D5B27A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E2A84B-414D-4ECB-837C-573A00D98804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E2A84B-414D-4ECB-837C-573A00D98804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E2A84B-414D-4ECB-837C-573A00D98804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E2A84B-414D-4ECB-837C-573A00D98804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27E2A84B-414D-4ECB-837C-573A00D98804} = {9AF79D41-17CB-425F-B8B1-B86D1610B3C6}
 	EndGlobalSection
 EndGlobal
