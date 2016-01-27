@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServers.DALServer", "App
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServers.Common", "AppServers\AppServers.Common\AppServers.Common.csproj", "{60BF93EA-7719-440A-8F11-5D3D2B7DB5D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppServers.SystemMonitor", "AppServers\AppServers.SystemMonitor\AppServers.SystemMonitor.csproj", "{92B0CDD8-B54B-49E0-971F-B2D014778C57}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{60BF93EA-7719-440A-8F11-5D3D2B7DB5D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60BF93EA-7719-440A-8F11-5D3D2B7DB5D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60BF93EA-7719-440A-8F11-5D3D2B7DB5D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92B0CDD8-B54B-49E0-971F-B2D014778C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92B0CDD8-B54B-49E0-971F-B2D014778C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92B0CDD8-B54B-49E0-971F-B2D014778C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92B0CDD8-B54B-49E0-971F-B2D014778C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +53,7 @@ Global
 		{27E2A84B-414D-4ECB-837C-573A00D98804} = {9AF79D41-17CB-425F-B8B1-B86D1610B3C6}
 		{38553A85-602C-4CA9-B7FC-76034D5B27A7} = {840E331F-EFAF-42A0-BF40-FE6F11656901}
 		{6197FFA4-067E-4AED-8D88-F68D7AC8A97A} = {151E2EF3-804A-421C-B1C0-4F6CD571726B}
+		{E7B9BCDD-EF8F-4365-822A-67925E0B16BB} = {840E331F-EFAF-42A0-BF40-FE6F11656901}
+		{60BF93EA-7719-440A-8F11-5D3D2B7DB5D5} = {840E331F-EFAF-42A0-BF40-FE6F11656901}
 	EndGlobalSection
 EndGlobal
