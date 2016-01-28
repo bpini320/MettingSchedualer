@@ -45,9 +45,20 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemMonitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common.DataModel\Common.DataModel.csproj">
+      <Project>{6197ffa4-067e-4aed-8d88-f68d7ac8a97a}</Project>
+      <Name>Common.DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppServers.Common\AppServers.Common.csproj">
+      <Project>{60bf93ea-7719-440a-8f11-5d3d2b7db5d5}</Project>
+      <Name>AppServers.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

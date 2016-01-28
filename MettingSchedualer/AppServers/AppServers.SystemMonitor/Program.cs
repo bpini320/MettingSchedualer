@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppServers.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +10,10 @@ namespace AppServers.SystemMonitor
     class Program
     {
         
+
         static void Main(string[] args)
         {
+            SystemMonitor sys = new SystemMonitor();
             Console.WriteLine();
         }
     }

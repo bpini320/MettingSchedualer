@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AppServers.Common
+namespace Framework
 {
-    public class Class1
+    public class SerializeUtil
     {
+        //public static 
     }
 }
